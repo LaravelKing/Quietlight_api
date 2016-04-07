@@ -1,0 +1,11 @@
+# behat.yml
+default:
+    context:
+        parameters:
+            base_url: http://api.quietlight.dev
+            test_environment: testing
+            test_db_host: localhost
+            test_db_name: ql-testing
+            test_db_user: behat
+            test_db_pass: testing
+            test_db_seed_file: ./features/bootstrap/seed.sql
